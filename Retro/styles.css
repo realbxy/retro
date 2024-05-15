@@ -1,0 +1,138 @@
+.fade-box {
+    background: #00060C !important; /* Change background color */
+    border-radius: 4px;
+}
+
+.swal2-popup {
+    background: #00060C !important; /* Change background color */
+    border: none;
+    border-radius: .3125em;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: 15px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 1.25em;
+    position: relative;
+    width: auto;
+}
+
+.replay-list-header[data-v-11810f3c] {
+    align-items: center;
+    background: #00060C !important; /* Change background color */
+    border-bottom: 2px solid #000;
+    box-shadow: 0 0 10px 1px #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+#chatbox-container, .fade-box, .swal2-popup {
+    box-shadow: 0 0 4px 2px #000!important;
+}
+
+.social-container[data-v-3d4cb83d] {
+    display: none !important;
+}
+
+.social-container>[data-v-3d4cb83d] {
+    margin-left: initial !important;
+    margin-right: initial !important;
+    padding-left: initial !important;
+    padding-right: initial !important;
+}
+
+a[data-v-3d4cb83d] {
+    text-decoration: initial !important;
+}
+
+.discord-link[data-v-3d4cb83d],
+.tournaments-link[data-v-3d4cb83d],
+.youtube-link[data-v-3d4cb83d],
+.skins-link[data-v-3d4cb83d] {
+    display: none !important;
+}
+
+.skin[data-v-2eade0fe] {
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+    animation: rainbow-border 20s infinite; /* Slower animation */
+}
+
+@keyframes rainbow-border {
+    0% { border-color: red; }
+    10% { border-color: orange; }
+    20% { border-color: yellow; }
+    30% { border-color: green; }
+    40% { border-color: blue; }
+    50% { border-color: indigo; }
+    60% { border-color: violet; }
+    70% { border-color: purple; }
+    80% { border-color: pink; }
+    90% { border-color: brown; }
+    100% { border-color: red; } /* Loop back to red */
+}
+
+.account-name[data-v-520f1371] {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 140px;
+    animation: rainbow-text 20s infinite; /* Slower animation */
+}
+
+@keyframes rainbow-text {
+    0% { color: red; }
+    10% { color: orange; }
+    20% { color: yellow; }
+    30% { color: green; }
+    40% { color: blue; }
+    50% { color: indigo; }
+    60% { color: violet; }
+    70% { color: purple; }
+    80% { color: pink; }
+    90% { color: brown; }
+    100% { color: red; } /* Loop back to red */
+}
+
+.chatbox[data-v-7264abb4] {
+    pointer-events: none !important;
+}
+
+.tab[data-v-5190ae12] {
+    cursor: pointer;
+    flex: 1;
+    padding: 9px;
+    text-align: center;
+    width: 55px;
+}
+
+.tab[data-v-5190ae12]:hover {
+    background: rgba(0,0,0,.15);
+}
+
+.tab[data-v-5190ae12]:not(:last-child) {
+    border-right: 2px solid #000;
+}
+
+.tab.icon-brush {
+    width: 53.78px; /* Set the width of the tab */
+    height: 40.21px; /* Set the height of the tab */
+    text-align: center; /* Center the icon horizontally */
+}
+
+.fa-paint-brush:before {
+    line-height: 40.21px; /* Set the line height to match the height of the tab */
+}
+
+

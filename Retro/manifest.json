@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "Description of my extension",
+  "permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://vanis.io/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "lib/jquery.min.js",
+    "lib/jquery-ui.min.js"
+  ]
+}
